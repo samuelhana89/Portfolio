@@ -1,0 +1,348 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Portfolio website</title>
+  </head>
+  <body>
+    <!--page loading -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!--background circles -->
+    <div class="dg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!--overlay -->
+    <div class="overlay"></div>
+
+    <!--Main-->
+    <div class="main hidden">
+      <!----Header---->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!----Home---->
+      <section class="home-section align-item-center" id="home">
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="home-text">
+              <p>Hello, I’m</p>
+              <h1>SAMUEL HANA</h1>
+              <h2>Software Developer</h2>
+              <a href="#about" class="btn link-item">More About Me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+            </div>
+
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/000.jpg" alt="background-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----About---->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>ABOUT ME</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/00.jpg" alt="about img" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Hi, my name is Samuel Hana. I worked in the past as an aircraft
+                mechanical, but currently I am Software developer. I specialize
+                in web and app design, front end development. I am cable within
+                a wide rage of tactical and big-picture design tasks. Fun Fact
+                about me One thing that always surprise people is when I tell
+                them that I am also Egyptian. I born and I rise in Egypt. My
+                first language is Arabic , I Like to play soccer and video
+                games.
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">C#</div>
+                <div class="skill-item">ASP.NET</div>
+                <div class="skill-item">API</div>
+                <div class="skill-item">MVC</div>
+                <div class="skill-item">Unit Testing</div>
+                <div class="skill-item">SQL Server</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">Agile</div>
+                <div class="skill-item">Git</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  Education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  Experience
+                </button>
+              </div>
+
+              <!--education-->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2021</span>
+                    <h4>
+                      Software Development learning program -<span
+                        >Eleven Fifty Academy
+                      </span>
+                    </h4>
+                    <p>
+                      6 months learning program for Software Development to
+                      become Microsoft.Net software developer. Create and deploy
+                      web pages, develop full stack Application, learn modern
+                      frameworks and libraries, learn HTML, CSS, .NET and REST.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2019</span>
+                    <h4>
+                      Associate degree -<span
+                        >Aviation Maintenance Technology
+                      </span>
+                    </h4>
+                    <p>A&P mechanic</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2012</span>
+                    <h4>Bachelor degree -<span>faculty of commerce </span></h4>
+                    <p>
+                      Bachelor degree - faculty of commerce, Egypt, June 2012
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date"> 2019-2020</span>
+                    <h4>
+                      A&P mechanic -<span>Republic Airways (lift Academy)</span>
+                    </h4>
+                    <p>
+                      Responsible for inspecting and maintaining the structural,
+                      mechanical, and electronic elements on an aircraft
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date"> 2018-2019</span>
+                    <h4>
+                      Aircraft Painter -<span
+                        >Applied Composites Engineering</span
+                      >
+                    </h4>
+                    <p>
+                      Responsible for inspecting and maintaining the structural,
+                      mechanical, and electronic elements on an aircraft
+                    </p>
+                  </div>
+                  <!--<div class="timeline-item">
+                    <span class="date"> 2021</span>
+                    <h4>web Developer -<span>Republic Airways </span></h4>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Ratione commodi, id tenetur architecto aliquid odit.
+                    </p>
+                  </div>-->
+                </div>
+              </div>
+
+              <a href="Samuel Hana Resume.pdf" target="_blank" class="btn"
+                >DOWNLOAD RESUME</a
+              >
+              <a href="#contact" class="btn link-item">CONTACT ME</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----portfolio---->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>PORTFOLIO</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/07.jpg" alt="portfolio item thumb " />
+              </div>
+              <h3 class="portfolio-item-title">WORKOUT TRACKER</h3>
+              <a
+                href="https://github.com/kmpcool123/Workout-Tracker"
+                target="blank"
+                ><button type="button" class="btn view-project-btn">
+                  VIEW PROJECT
+                </button></a
+              >
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/08.jpg" alt="portfolio item thumb " />
+              </div>
+              <h3 class="portfolio-item-title">TIC TAC TOE GAME</h3>
+              <a
+                href="https://github.com/samuelhana89/TicTacGame"
+                target="blank"
+                ><button type="button" class="btn view-project-btn">
+                  VIEW PROJECT
+                </button></a
+              >
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/09.jpg" alt="portfolio item thumb " />
+              </div>
+              <h3 class="portfolio-item-title">FRONT STORE</h3>
+              <a
+                href="https://github.com/samuelhana89/Static-Store-Front"
+                target="blank"
+                ><button type="button" class="btn view-project-btn">
+                  VIEW PROJECT
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----Contact---->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>CONTACT ME</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="NAME"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="EMAIL"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="SUBJECT"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      placeholder="MESSAGE"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">SEND MESSAGE</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>EMAIL</h3>
+                <p>samuel.m.hana@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>PHONE</h3>
+                <p>317-249-0219</p>
+              </div>
+              <div class="contact-info-item">
+                <div class="social-links">
+                  <a href="https://github.com/samuelhana89" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/samuel-hana-0b8728132/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <p>&copy; 2021 S A M U E L H A N A</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
